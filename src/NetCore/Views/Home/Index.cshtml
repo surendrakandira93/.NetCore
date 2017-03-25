@@ -1,0 +1,30 @@
+﻿@model IEnumerable<NetCore.Models.StudentModel>
+<div>
+    <h3>Welcome Student list </h3>
+    <a class="btn btn-default" asp-action="Create">Add New Student</a>
+
+    <table id="tblGrid" class="table table-bordered table-striped"></table>
+
+    @*<table class="table table-responsive table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>
+                            <a class="btn btn-default" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                            <a class="btn btn-default" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>*@
+</div>
